@@ -16,3 +16,21 @@ Oracle Instance - oradb2:   Up
 Oracle Instance - oradb3:   Down
 Oracle Instance - oradb4:   Up
 ````
+
+## 2.rman_archive_delete.sh
+````
+[oracle@localhost ~]$ sh Archives_delete.sh
+
+=============================================================
+This script Deletes the ARCHIVELOGS of a database using RMAN.
+=============================================================
+
+
+Select the ORACLE_SID:[Enter the number]
+---------------------
+1) ORCL21C
+2) TEST
+#? 2
+
+Selected Instance: [ TEST ]
+````
